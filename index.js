@@ -10,16 +10,17 @@ function increaseRankBy(n) {
   var lis = document.getElementById("app").querySelectorAll("ul.ranked-list li");
   
   for(let i=0; i < lis.length; i++) {
-    lis[i].innerHTML= parseInt(lis[i].innerHTML) + n;
+    lis[i].innerHTML = parseInt(lis[i].innerHTML) + n;
   }
 }
 
 function deepestChild() {
-  const deep = document.querySelector("div#grand-node").querySelectorAll("div div div div div");
-  
-  for (let i = 0; i < deep.length; i++) {
-    deep[i].innerHTML = (i + 1).toString();
+  var lis = document.getElementById("grand-node").querySelector("div");
+  var deep;
+  for (let i = 0; i < lis.length; i++) {
+    lis[i].querySelector("div");
   }
+  return lis;
 }
 
 // document.querySelector("div#grand-node").querySelector("div div div div div").innerText;
