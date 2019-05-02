@@ -7,7 +7,11 @@ function nestedTarget() {
 }
 
 function increaseRankBy(n) {
-  const deep = document.querySelector("div#grand-node");
+  const deep = document.querySelector("div#grand-node").querySelectorAll("div div div div div");
   
-  for (let i = 0; i <)
+  for (let i = 0; i < deep.length; i++) {
+    deep[i].innerHTML = (i + 1).toString();
+  }
 }
+
+document.querySelector("div#grand-node").querySelector("div div div div div").innerText;
