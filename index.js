@@ -23,4 +23,3 @@ function deepestChild() {
   return lis;
 }
 
-// document.querySelector("div#grand-node").querySelector("div div div div div").innerText;
