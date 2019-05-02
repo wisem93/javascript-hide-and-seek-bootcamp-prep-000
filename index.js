@@ -14,4 +14,4 @@ function increaseRankBy(n) {
   }
 }
 
-document.querySelector("div#grand-node").querySelector("div div div div div").innerText;
+// document.querySelector("div#grand-node").querySelector("div div div div div").innerText;
